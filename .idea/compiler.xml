@@ -7,10 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="wimix_test_repo-develop" />
+        <module name="test-mail-ru" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="test-mail-ru" target="15" />
+      <module name="wimix-test-repo" target="15" />
       <module name="wimix_test_repo-develop" target="15" />
     </bytecodeTargetLevel>
   </component>

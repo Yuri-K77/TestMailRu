@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/wimix_test_repo-develop.iml" filepath="$PROJECT_DIR$/.idea/wimix_test_repo-develop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-mail-ru.iml" filepath="$PROJECT_DIR$/test-mail-ru.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wimix-test-repo.iml" filepath="$PROJECT_DIR$/wimix-test-repo.iml" />
     </modules>
   </component>
 </project>
