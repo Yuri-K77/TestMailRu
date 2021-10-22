@@ -1,8 +1,6 @@
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
-
 import java.time.Duration;
-
 
 public abstract class BasePage {
 

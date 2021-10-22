@@ -1,6 +1,5 @@
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.*;
-
 import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

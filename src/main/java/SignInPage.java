@@ -1,7 +1,5 @@
 import com.codeborne.selenide.Condition;
-
 import java.time.Duration;
-
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 
