@@ -13,8 +13,8 @@ public class TestMailRu {
 
     @BeforeAll
     void setUp() {
-        Configuration.timeout = 30000;
         Configuration.startMaximized = true;
+        Configuration.timeout = 30000;
         System.setProperty("chromeoptions.prefs","intl.accept_languages=en");
         open("https://mail.ru/");
         mainPage = new MainPage();

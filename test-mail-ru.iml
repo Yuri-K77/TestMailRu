@@ -14,8 +14,7 @@
     <orderEntry type="library" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-commons:1.8.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.2" level="project" />
-    <orderEntry type="library" name="Maven: com.codeborne:selenide:6.0.2" level="project" />
-    <orderEntry type="library" name="Maven: com.codeborne:selenide-core:6.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.codeborne:selenide:6.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-java:4.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-api:4.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:4.0.0" level="project" />
@@ -70,15 +69,6 @@
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-http:4.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-safari-driver:4.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-support:4.0.0" level="project" />
-    <orderEntry type="library" name="Maven: io.github.bonigarcia:webdrivermanager:5.0.3" level="project" />
-    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.8" level="project" />
-    <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.14.2" level="project" />
-    <orderEntry type="library" name="Maven: org.brotli:dec:0.1.2" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-lang:commons-lang:2.6" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-compress:1.21" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents.client5:httpclient5:5.1.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents.core5:httpcore5:5.1.2" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-codec:commons-codec:1.15" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:31.0.1-jre" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:failureaccess:1.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
@@ -89,5 +79,15 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-lang3:3.12.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: commons-io:commons-io:2.11.0" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.32" level="project" />
+    <orderEntry type="library" name="Maven: com.codeborne:selenide-core:6.0.3" level="project" />
+    <orderEntry type="library" name="Maven: io.github.bonigarcia:webdrivermanager:5.0.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.8" level="project" />
+    <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.14.2" level="project" />
+    <orderEntry type="library" name="Maven: org.brotli:dec:0.1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-compress:1.21" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents.client5:httpclient5:5.1.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents.core5:httpcore5:5.1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-codec:commons-codec:1.15" level="project" />
   </component>
 </module>
