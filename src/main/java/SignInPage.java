@@ -1,6 +1,6 @@
 import com.codeborne.selenide.Condition;
 import java.time.Duration;
-import static com.codeborne.selenide.Selectors.byText;
+
 import static com.codeborne.selenide.Selenide.$;
 
 public class SignInPage extends BasePage {
@@ -20,34 +20,34 @@ public class SignInPage extends BasePage {
     }
 
     public void inputAccountName() {
-        COMPONENT_CONTAINER
+        componentContainer
                 .$("input[name='username']")
                 .setValue("testing-mailbox");
     }
 
     public void inputPassword() {
-        COMPONENT_CONTAINER
+        componentContainer
                 .$("input[name='password']")
                 .shouldBe(Condition.visible,Duration.ofSeconds(30))
                 .setValue("testing12345");
     }
 
     public void clickEnterPasswordButton() {
-        COMPONENT_CONTAINER
+        componentContainer
                 .$("button[data-test-id='next-button']")
                 .shouldBe(Condition.enabled)
                 .click();
     }
 
     public void waitEnterYourPasswordDialog() {
-        COMPONENT_CONTAINER
+        componentContainer
                 .$("h2[data-test-id='header-text']")
                 .shouldBe(Condition.visible)
                 .click();
     }
 
     public void clickEnterButton() {
-        COMPONENT_CONTAINER
+        componentContainer
                 .$("button[data-test-id='submit-button']")
                 .shouldBe(Condition.visible)
                 .click();

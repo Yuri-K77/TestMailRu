@@ -9,14 +9,14 @@ public class InboxPage extends BasePage {
     }
 
     public void clickDropdownButton() {
-        COMPONENT_CONTAINER
+        componentContainer
                 .$("span.button2__ico")
                 .shouldBe(Condition.enabled)
                 .click();
     }
 
     public void selectWriteEmail() {
-        COMPONENT_CONTAINER
+        componentContainer
                 .$$("span.list-item__text")
                 .get(0).shouldBe(Condition.enabled)
                 .click();

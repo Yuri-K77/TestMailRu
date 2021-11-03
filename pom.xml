@@ -26,7 +26,7 @@
         <dependency>
             <groupId>com.codeborne</groupId>
             <artifactId>selenide</artifactId>
-            <version>6.0.3</version>
+            <version>5.25.0</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.codeborne/selenide-core -->
@@ -35,7 +35,6 @@
             <artifactId>selenide-core</artifactId>
             <version>6.0.3</version>
         </dependency>
-
     </dependencies>
 
 </project>
