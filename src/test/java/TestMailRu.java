@@ -1,3 +1,5 @@
+/* Тестирование web приложения Mail.ru с помощью фреймворка Selenide (https://selenide.org/index.html) */
+
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.*;
 import static com.codeborne.selenide.Selenide.open;
