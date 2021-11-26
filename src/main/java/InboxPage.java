@@ -24,7 +24,7 @@ public class InboxPage extends BasePage {
 
     public void writeLetterToMe() {
                 $("input[name='Subject']").setValue("Hello");
-                $x("/html/body/div[15]/div[2]/div/div[1]/div[2]/div[3]/div[5]/div/div/div[2]/div[1]/div[1]").setValue("Test mail");
-                $x("/html/body/div[15]/div[2]/div/div[2]/div[1]/span[1]/span/span").click();
+                $x("/html/body/div[15]/div[2]/div/div[1]/div[2]/div[3]/div[5]/div/div/div[2]/div[1]/div[1]").setValue("Test mail for you");
+                $x("//span[@class='button2__txt' and text()='Отправить']").click();
     }
 }
