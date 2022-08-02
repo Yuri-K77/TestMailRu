@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Selenide.$;
 public class SignInPage extends BasePage {
 
     public SignInPage() {
-        super($("div.wrapper-0-2-13")
+        super($("div.login-panel")
                 .shouldBe(Condition.visible, Duration.ofSeconds(30)));
     }
 

@@ -15,7 +15,8 @@ public class TestMailRu {
 
     @BeforeAll
     void setUp() {
-        Configuration.startMaximized = true;
+        //Configuration.startMaximized = true;
+        Configuration.browserSize = "1920x1080";
         Configuration.timeout = 30000;
         System.setProperty("chromeoptions.prefs","intl.accept_languages=en");
         open("https://mail.ru/");
@@ -46,7 +47,6 @@ public class TestMailRu {
         signInPage.clickEnterButton();
         inboxPage = new InboxPage();
         assertTrue(inboxPage.waitIsPageOpen());
-
     }
 
     @Order(4)
